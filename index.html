@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Autour+One&display=swap" rel="stylesheet">
+    <title>The Greasy Whiskers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+</head>
+<body class="welcome">
+
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Greasy Whiskers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron mb-5 p-0 m-0 img-fluid">
+        <div class="container header p-0 mt-0" style="width: 100%;">
+            <!-- <div class="container text-center m-0 pt-1 rounded" style="background-image: linear-gradient(to bottom, rgba(255,255,255,.7) 0%, rgba(255,255,255,.7) 85%,rgba(255,153,153,0) 100%);"> -->
+                
+                <h1 class="word1 mt-0" style="font-family: Bevan;"><b> The Greasy </b></h1>
+                <h1 class=" word2 text-white mt-0" style="font-family: Bevan; "><b> Whiskers </b></h1>
+                
+                <!-- <p class="lead text-black" style="font-family: 'Advent Pro';">Energetic Scottish folk band performing a mix of Scottish, Irish, and American folk music</p> -->
+                <hr class="my-4">
+            <!-- </div> -->
+            <div class="front-text">
+            <div class="text-center" style="display: flex; align-items: end; justify-content: center;">
+                <p class="text-center"><b> see where we're playing! </b></p>
+            </div>
+            <i class="fa-solid fa-angle-down fa-bounce fa-2xl text-white" id="scroll-down"></i>
+        </div>
+        </div>
+      </div>
+
+    <!-- <div class="mt-0 mb-5 p-5 rounded" style="height: 100vh; background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 75%,rgba(255,255,255,1) 100%), url(/static/images/cover-photo.JPG); background-size: 100%;">
+        <div class="container text-center text-white">
+            <div class="text-center" style="height: 55vh; display: flex; align-items: end; justify-content: center;"></div>
+            <h1 class="display-4">The Greasy Whiskers</h1>
+            <p class="lead">Energetic Scottish folk band performing a mix of Scottish, Irish, and American folk music</p>
+            <hr class="my-4">
+            <p class="text-center mt-5">see where we're playing!</p>
+            <br>
+            <i class="fa-solid fa-angle-down fa-bounce fa-2xl"></i>
+        </div>
+    </div> -->
+
+    <div class="bio container mt-5 mb-0 pb-0 text-center">
+        <h2 class="text-black" style="font-family: 'Autour One';">Scottish Folk Band </h2>
+        <p class="text-black p-2" style="font-family: 'Autour One';">The Greasy Whiskers are a folk band based in Edinburgh. They perform a mix of Scottish, Irish, and American folk tunes. This energetic 6-piece band performs all over Edinburgh, be sure to follow and visit some shows!</p>
+    </div>
+    <div class="my-0 py-0 bio-photo container text-center img-fluid" style=" background-image: linear-gradient(rgba(255,255,255,1) 2%,rgba(255,153,153,0) 85%,rgba(255,255,255,1) 100%), url('/static/images/artwork-1.jpeg'); background-size: 98%; background-repeat: no-repeat; background-position: center;">
+
+    </div>
+
+    <div class="cal"></div>
+
+    <div class="text-center cal calD mt-5 mb-5 d-none d-sm-block"> 
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&src=NWU0NmIxMTdhNTgwMzczOTcwNTkxNjU4ZTg5MzA1OWY5NWE4MGEzZWViOTQxMzA0NzNmNzZmMzBiOGI4NDg4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33" style="border-width: 0; width: 80%; height: 90vh;" frameborder="0" scrolling="no" id="calendarDesktop"></iframe>
+    </div>
+
+    <div class="text-center cal calM mt-3 mb-5 d-block d-sm-none"> 
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&mode=AGENDA&src=NWU0NmIxMTdhNTgwMzczOTcwNTkxNjU4ZTg5MzA1OWY5NWE4MGEzZWViOTQxMzA0NzNmNzZmMzBiOGI4NDg4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23C0CA33" style="border-width: 0; width: 100%; height: 60vh;" frameborder="0" scrolling="no" id="calendarMobile"></iframe>
+    </div>
+
+    <div class="text-center gallery my-5">
+        <h2 class="display-4"><b> Gallery </b></h2>
+    </div>
+
+ <div class="container gallery-photos">
+         <div class="row">
+            <div class="col-lg-12 text-center my-2">
+                <h4>Photos And Videos Of Us</h4>
+            </div>
+         </div>
+         <div class="portfolio-menu mt-2 mb-4">
+            <ul>
+               <!-- <li class="btn btn-outline-dark active" data-filter="*">All</li> -->
+               <li class="btn btn-outline-dark active vids" data-filter=".vid">Videos</li>
+               <li class="btn btn-outline-dark" data-filter=".gts">Sandy Bells</li>
+               <li class="btn btn-outline-dark" data-filter=".lap">Outside</li>
+               <li class="btn btn-outline-dark text" data-filter=".selfie">Recording</li>
+            </ul>
+         </div>
+         <div class="portfolio-item row">
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1nzRow9C4lPXKeCwfUpGYB82b49TBiMw4" class="fancylight popup-btn" data-fancybox-group="light"> 
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1nzRow9C4lPXKeCwfUpGYB82b49TBiMw4" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" class="fancylight popup-btn" data-fancybox-group="light"> 
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=183WxzibdCa6Hap99Qv4SXFoH0dry0Nth" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=183WxzibdCa6Hap99Qv4SXFoH0dry0Nth" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18Q65ZWFjttsGtxDutSRpNsidDZp9U4P2" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18Q65ZWFjttsGtxDutSRpNsidDZp9U4P2" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18EIcbnuoTe7q-OYMUNicPLSvHv5VkkDX" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18EIcbnuoTe7q-OYMUNicPLSvHv5VkkDX" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18Jg3opLLF5ZhNrI_buQ-xC_Il00RU7Ci" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18Jg3opLLF5ZhNrI_buQ-xC_Il00RU7Ci" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18WL527Rqed6asoKUbrGWLBnJqyExVq1j" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18WL527Rqed6asoKUbrGWLBnJqyExVq1j" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18BgKBCY9_cGF4rbd3U7v4HByo0zXvMY2" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18BgKBCY9_cGF4rbd3U7v4HByo0zXvMY2" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1nwxrcRMeGB6iyqMgEnELNW4IgyvHPCVT" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18YYSX6600NFvEwr6VvGdDgaWsYiDKbdQ" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18YYSX6600NFvEwr6VvGdDgaWsYiDKbdQ" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18XJ0teUmChJpN6u8OCeHWoGEvnhwxDZX" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18XJ0teUmChJpN6u8OCeHWoGEvnhwxDZX" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18_ym7yQNw9xREMvaXazZ0R5VB5QFNOmq" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18_ym7yQNw9xREMvaXazZ0R5VB5QFNOmq" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=189UCl_lbGzJVtNj8lSQytz0SMR6PgUhH" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=189UCl_lbGzJVtNj8lSQytz0SMR6PgUhH" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1885QtyAq3u2fevCHtj_yFS99UVHqT5nC" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1885QtyAq3u2fevCHtj_yFS99UVHqT5nC" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=18W2PreY_YIFfb6VH_2uhejx9rbFrdfCP" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=18W2PreY_YIFfb6VH_2uhejx9rbFrdfCP" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1netyN_naU-OLJVsoEmVbwEZk_eX08G7x" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1netyN_naU-OLJVsoEmVbwEZk_eX08G7x" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1854nBjq4bN6btOWh7nZ6lNJ_OqKMta7O" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1854nBjq4bN6btOWh7nZ6lNJ_OqKMta7O" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1nHo6PPI4p82esyS78rRFM7LYYH0ieq-B" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1nHo6PPI4p82esyS78rRFM7LYYH0ieq-B" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1ZDYLmOW9HrWTySatAd29Myz41qPPu2Es" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1ZDYLmOW9HrWTySatAd29Myz41qPPu2Es" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1oPvtqV4Id4RYQYstyfoosCIOHbEArKp9" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1oPvtqV4Id4RYQYstyfoosCIOHbEArKp9" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1oDTX-gpFQcvd-wkw5LY_EsnUU1xpTQDC" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1oDTX-gpFQcvd-wkw5LY_EsnUU1xpTQDC" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1otjtgSvpJlbUR82UOhv7t9MyOwecgvFz" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1otjtgSvpJlbUR82UOhv7t9MyOwecgvFz" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1ttFYUZNZdb6ONBRh5a6nvmD0GFopfIs2" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1ttFYUZNZdb6ONBRh5a6nvmD0GFopfIs2" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=16Y6Ofpf48CZCPGZm1brIXEfS4c5VfH1t" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=16Y6Ofpf48CZCPGZm1brIXEfS4c5VfH1t" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-6 col-sm">
+               <a href="https://drive.google.com/uc?export=view&id=1lPQ2bh9xasRBhi6lbrc6RhCx59TqNFV7" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://drive.google.com/uc?export=view&id=1lPQ2bh9xasRBhi6lbrc6RhCx59TqNFV7" alt="">
+               </a>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/gbXZ3djgGFA?si=6QV5QCTHVX_LojZx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/JbWE9NCrrg8?si=_GUM5tDY0TIYLS1u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/invaU6mbO54?si=LuQaDHEW-_2MhJgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/uJRUIiSp7yo?si=SammGP8zZv306Y87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/Kgt15WOusCw?si=AwaxAJXCEuOstmAm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="item vid col-lg-6 col-12 text-center">
+                <iframe style="width: 100%; height: 40vh;" src="https://www.youtube.com/embed/q4CrYPZbT7A?si=XRxODmBoa-gy7Liu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+         </div>
+      </div>
+
+    <footer class="text-white bg-secondary p-5 rounded">
+        <div class="text-center">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h4>Follow Us!</h4>
+                    <br>
+                    <a href="https://www.youtube.com/channel/UCO0yUTDDOVqdK37RcICQenQ" target="_blank" style="text-decoration: none;" class="text-white"><i class="fa-brands fa-youtube fa-2xl m-3" style="color: white"></i></a>
+                    <a href="https://www.instagram.com/thegreasywhiskers/?hl=en-gb" target="_blank" style="text-decoration: none;" class="text-white"><i class="fa-brands fa-instagram fa-2xl" style="color: white;"></i></a>
+                    <a href="https://www.facebook.com/TheGreasyWhiskers/" target="_blank" style="text-decoration: none;" class="text-white"><i class="fa-brands fa-facebook fa-2xl m-3" style="color: white;"></i></a>  
+                    <br>
+                    <br>
+                    <p> @thegreasywhiskers </p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h4>Send Us An Email</h4>
+                    <h4>To Inquire About Booking!</h4>
+                    <br>
+                    <button class="btn" style="background-color: white; border-radius: 1rem;"> <a href="mailto:thegreasywhiskers@gmail.com" style="color: black;"> thegreasywhiskers@gmail.com </a></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/gallery.js"></script>
+    <script src="/coverScreen.js"></script>
+</body>
+</html>
