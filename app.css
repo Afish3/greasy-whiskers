@@ -97,7 +97,7 @@ body {
 }
 
   nav {
-    background-color: rgba(100,155,200,0);
+    background: linear-gradient(to bottom rgba(0,100,0,1) 50%, rgba(100,155,200,1) 50%);
   }
 
 .jumbotron {
