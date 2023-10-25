@@ -130,7 +130,8 @@ h1 {
 
 h1.word1 {
     padding-top: 5rem;
-    color: darkgoldenrod;
+    /* color: darkgoldenrod; */
+    color: black;
 }
 
 p.lead {
