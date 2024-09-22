@@ -182,6 +182,13 @@ div.front-text {
     h1 {
       font-size: 5rem;
     }
+    div.playing {
+        /* height: 5vh; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        display: none;
+    }
     /* Add other styles for larger screens */
   }
 
@@ -217,6 +224,13 @@ div.front-text {
     }
     .bio-photo {
         height: 80vh;
+    }
+    div.playing {
+        /* height: 5vh; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        display: none;
     }
 }
 
