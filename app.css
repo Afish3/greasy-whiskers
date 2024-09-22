@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Canterbury';
+    src: url('static/Canterbury.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .portfolio-menu{
 	text-align:center;
 }
@@ -123,16 +130,29 @@ body {
 
 h1 {
     text-align: left;
-    font-size: 3.3rem;
+    font-size: 4.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    line-height: 2.2rem;
+    line-height: 4.2rem;
 }
 
 h1.word1 {
-    padding-top: 5rem;
+    padding-top: 6rem;
     /* color: darkgoldenrod; */
     color: black;
+    text-shadow: 
+        -2px -2px 0 white,  
+        2px -2px 0 white,
+        -2px 2px 0 white,   
+        2px 2px 0 white;
+}
+
+h1.word2 {
+    text-shadow: 
+        -2px -2px 0 black,  
+        2px -2px 0 black,
+        -2px 2px 0 black,   
+        2px 2px 0 black;
 }
 
 p.lead {
