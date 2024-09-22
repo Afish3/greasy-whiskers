@@ -94,6 +94,14 @@ body {
     animation: moveIn 2s 3.1s ease forwards;
 }
 
+p.playing {
+    /* height: 5vh; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: none;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -182,7 +190,7 @@ div.front-text {
     h1 {
       font-size: 5rem;
     }
-    div.playing {
+    p.playing {
         /* height: 5vh; */
         /* display: flex;
         align-items: center;
@@ -232,6 +240,13 @@ div.front-text {
         justify-content: center; */
         display: none;
     }
+    p.playing {
+        /* height: 5vh; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1076px) {
@@ -259,5 +274,12 @@ div.front-text {
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center;
+    }
+    p.playing {
+        /* height: 5vh; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        display: block;
     }
 }
