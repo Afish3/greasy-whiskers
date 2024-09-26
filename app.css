@@ -47,7 +47,7 @@ body {
     transition: opacity 2s ease-in-out;
 }
 
-.banjo {
+/* .banjo {
     width: 200px;
     height: 400px;
     display: flex;
@@ -87,7 +87,7 @@ body {
     top: -120px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 .website-content {
     opacity: 0;
@@ -281,5 +281,6 @@ div.front-text {
         align-items: center;
         justify-content: center; */
         display: block;
+        color: white;
     }
 }
