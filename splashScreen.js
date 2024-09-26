@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', () => {
         splashScreen.addEventListener('transitionend', () => {
             splashScreen.style.display = 'none';
         });
-    }, 1000); // Adjust the time (in milliseconds) for how long the splash screen is displayed
+    }, 0); // Adjust the time (in milliseconds) for how long the splash screen is displayed
 });
