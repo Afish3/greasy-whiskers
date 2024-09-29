@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Greasy Whiskers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Autour+One&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Canterbury';
+            src: url('static/Canterbury.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Advent Pro', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .navbar {
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-family: 'Canterbury', sans-serif;
+            font-size: 1.5rem;
+        }
+        h1, h2 {
+            font-family: 'Canterbury', 'Autour One', cursive;
+            color: #2c3e50;
+        }
+        .bio-section {
+            padding: 50px 0;
+        }
+        .bio-image {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .bio-image:hover {
+            transform: scale(1.05);
+        }
+        .bio-text {
+            font-size: 1.1rem;
+        }
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">The Greasy Whiskers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#gallery">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="bio-section">
+            <h1 class="text-center mb-5">About The Greasy Whiskers</h1>
+            
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <p class="bio-text">The Greasy Whiskers is an energetic, Edinburgh-based 2-6 piece folk band that plays a vast repertoire of what they like to call "transatlantic folk music" including Roaring Scottish and Irish folk ballads, American old-time, authentic country, bluegrass, country rags, and even 20s jazz parlor ballads.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/static/images/callum/7.jpg" alt="The Greasy Whiskers" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 order-md-2">
+                    <p class="bio-text">Led by Tommy Mencis, a Latvian-born fingerpicking' resonator and old-time guitarist and roaring vocals, followed by Matthew Giffen from Falkirk on the long-neck clawhammer banjo and vocal harmonies. Then we have Marta Stryjecka from Czech Republic who sings like a bird and plays the Indian Harmonium, Carlos Sandino from Canada/Nicaragua on the mandolin and six-shooter, outlaw songs, Jamie Johnston from Muirhouse on the rhythm guitar, and last but not least we have Aedan Fish, the outstanding, Alaska born double bass player!</p>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img src="/static/images/callum/6.jpg" alt="Band Members" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <p class="bio-text">The bunch have a fantastic mix of influences as well as different geographical backgrounds which make the band a wonderful folk music chameleon. Couldn't argue enough that these guys are best experienced live!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/static/images/callum/8.jpg" alt="Live Performance" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="/static/images/callum/11.jpeg" alt="Band Image 4" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="/static/images/callum/1.jpg" alt="Band Image 5" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="/static/images/callum/9.jpeg" alt="Band Image 6" class="img-fluid bio-image">
+                    <p class="text-center mt-2"><small>Photo by Callum Leask</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class=" col-md-4 col-12 mt-5">
+                    <h5 class="text-uppercase">The Greasy Whiskers</h5>
+                    <p>Transatlantic folk music from Edinburgh</p>
+                </div>
+                 <div class="col-md-4 col-12">
+                     <h4>Follow Us!</h4>
+                     <br>
+                     <a href="https://www.youtube.com/channel/UCO0yUTDDOVqdK37RcICQenQ" target="_blank" style="text-decoration: none;" class="text-black"><i class="fa-brands fa-youtube fa-2xl m-3" style="color: black"></i></a>
+                     <a href="https://www.instagram.com/thegreasywhiskers/?hl=en-gb" target="_blank" style="text-decoration: none;" class="text-white"><i class="fa-brands fa-instagram fa-2xl" style="color: black;"></i></a>
+                     <a href="https://www.facebook.com/TheGreasyWhiskers/" target="_blank" style="text-decoration: none;" class="text-white"><i class="fa-brands fa-facebook fa-2xl m-3" style="color: black;"></i></a>  
+                     <br>
+                     <br>
+                     <p> @thegreasywhiskers </p>
+                 </div>
+                 <div class="col-md-4 col-12">
+                     <h4>Send Us An Email</h4>
+                     <h4>To Inquire About Booking!</h4>
+                     <br>
+                     <button class="btn" style="background-color: lightblue;; border-radius: 1rem;"> <a href="mailto:thegreasywhiskers@gmail.com" style="color: black;"> thegreasywhiskers@gmail.com </a></button>
+                 </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 The Greasy Whiskers
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

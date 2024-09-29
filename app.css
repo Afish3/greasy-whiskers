@@ -34,6 +34,15 @@ body {
   } 
 
 
+.navbar {
+    background-color: #f8f9fa;
+}
+.navbar-brand {
+    font-family: 'Canterbury', sans-serif;
+    font-size: 1.5rem;
+}
+
+
   .splash-screen {
     width: 100%;
     height: 100vh;
@@ -47,48 +56,6 @@ body {
     transition: opacity 2s ease-in-out;
 }
 
-/* .banjo {
-    width: 200px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
-    animation: spin 3s linear infinite;
-}
-
-.banjo .body {
-    width: 75%;
-    height: 150px;
-    background: #ffffff;    
-    border-radius: 50%;
-    border: 3px solid #8B4513;
-}
-
-.banjo .neck {
-    width: 30px;
-    height: 200px;
-    background: #8B4513;
-    position: absolute;
-    top: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-
-.banjo .head {
-    width: 60px;
-    height: 60px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: -120px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
 .website-content {
     opacity: 0;
     animation: moveIn 2s 3.1s ease forwards;
@@ -100,15 +67,6 @@ p.playing {
     align-items: center;
     justify-content: center; */
     display: none;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
   nav {
@@ -191,19 +149,11 @@ div.front-text {
       font-size: 5rem;
     }
     p.playing {
-        /* height: 5vh; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         display: none;
     }
-    /* Add other styles for larger screens */
   }
 
 @media screen and (min-width: 476px) {
-    /* div.front-text {
-        height: 51vh;
-    } */
     h1 {
         padding-top: 0rem;
         text-align: center;
@@ -234,25 +184,14 @@ div.front-text {
         height: 80vh;
     }
     div.playing {
-        /* height: 5vh; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         display: none;
     }
     p.playing {
-        /* height: 5vh; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         display: none;
     }
 }
 
 @media screen and (min-width: 1076px) {
-    /* div.front-text {
-        height: 54vh;
-    } */
     h1 {
         text-align: center;
         font-size: 6rem;
@@ -276,10 +215,6 @@ div.front-text {
         background-position: center;
     }
     p.playing {
-        /* height: 5vh; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         display: block;
         color: white;
     }
