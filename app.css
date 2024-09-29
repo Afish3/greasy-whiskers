@@ -103,8 +103,8 @@ h1 {
 }
 
 h1.word1 {
-    padding-top: 6rem;
-    margin-top: 6rem;
+    padding-top: 4rem;
+    margin-top: 4rem;
     /* color: darkgoldenrod; */
     color: black;
     text-shadow: 
@@ -158,7 +158,7 @@ div.front-text {
         padding-top: 0rem;
         text-align: center;
         font-size: 5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         line-height: 7rem;
     }
     h1.word1 {
