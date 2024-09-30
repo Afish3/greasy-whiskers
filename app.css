@@ -33,6 +33,11 @@ body {
     flex-direction: column;
   } 
 
+.btn:hover {
+    background: linear-gradient(to right, rgba(52, 152, 219, 0.8), rgba(46, 204, 113, 0.8));
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 
 .navbar {
     background-color: #f8f9fa;
@@ -75,15 +80,16 @@ p.playing {
 
 .jumbotron {
     /* height: 100vh;  */
-    background-image: linear-gradient( rgba(255,255,255,.8) 1%,rgba(255,153,153,0) 88%,rgba(255,255,255,1) 100%), url('/static/images/mobile-cover-photo.jpg'); 
+    background-image: linear-gradient( rgba(255,255,255,.8) 0,rgba(255,153,153,0) 88%,rgba(255,255,255,1) 100%), url('/static/images/castle.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: right;
+    background-position: center;
     /* addittions */
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding-left: 1rem;
 }
 
 .container {
@@ -96,15 +102,15 @@ p.playing {
 
 h1 {
     text-align: center;
-    font-size: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    line-height: 6.2rem;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 17rem;
+    line-height: 4.2rem;
 }
 
 h1.word1 {
-    padding-top: 4rem;
-    margin-top: 4rem;
+    padding-top: 0;
+    margin-top: 0;
     /* color: darkgoldenrod; */
     color: black;
     text-shadow: 
@@ -174,7 +180,7 @@ div.front-text {
     }
     .jumbotron {
         height: 100vh; 
-        background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 88%,rgba(255,255,255,1) 100%), url('/static/images/cover-photo.JPG'); 
+        background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 88%,rgba(255,255,255,1) 100%), url('/static/images/castle.jpg'); 
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center;
