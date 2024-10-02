@@ -40,13 +40,37 @@ body {
 
 
 .navbar {
-    background-color: #f8f9fa;
-}
-.navbar-brand {
-    font-family: 'Canterbury', sans-serif;
-    font-size: 1.5rem;
+    padding: 1rem 2rem;
 }
 
+.navbar-brand {
+    font-family: 'Canterbury', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Canterbury', sans-serif;
+    font-size: 1.1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0;
+    }
+}
 
   .splash-screen {
     width: 100%;
