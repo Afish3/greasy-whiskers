@@ -367,7 +367,7 @@ div.front-text {
     }
     .jumbotron {
         height: 100vh; 
-        background-image: linear-gradient(to bottom, rgba(0,0,0,.8) 0,rgba(0,0,0,0) 88%,rgba(0,0,0,1) 100%), url('/static/images/cover-photo.JPG'); 
+        background-image: linear-gradient(to bottom, rgba(0,0,0,.8) 0,rgba(0,0,0,0) 88%,rgba(0,0,0,1) 100%), url('/static/images/cover3.png'); 
         background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center;
